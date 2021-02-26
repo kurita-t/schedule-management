@@ -12,6 +12,28 @@
   </head>
 
   <body>
+    <header>
+      <div class="header_bar">
+        <div class="header_nav">
+          <div class="menu_icon">
+            <%= image_tag "/assets/sozai_cman_jp_20210221152543.png" ,class:"menu_image" %>
+            <%# <img src="/assets/sozai_cman_jp_20210221152543.png" alt="メニューアイコンです" class="menu_image"> %>
+            <ul id="lists" class="nav navbar_nav">
+              <%# <li class="navbar-list"><%= link_to "ホーム",   root_path </li> %>
+              <%# <li class="navbar-list"><%= link_to "ログイン",   '#'</li> %>
+              <%# <li class="navbar-list"><%= link_to "ログアウト",   '#' </li> %>
+              <%# <li class="navbar-list"><%= link_to "新規登録", '#'</li> %>
+            </ul>
+          </div>
+        </div>
+        <h1 class="header_logo"><a href="/">ScheduleManagement</a></h1>
+      </div>
+    </header>
     <%= yield %>
+    <footer>
+      <p>
+        Copyright ScheduleManagement 2021.
+      </p>
+    </footer>
   </body>
 </html>
