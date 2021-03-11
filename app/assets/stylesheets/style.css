@@ -1,0 +1,89 @@
+.wrapper {
+  padding: 0px 20px;
+  background-color: #4d4d4d;
+  border-bottom:1px solid black;
+}
+
+.main_plan{
+  background-color: rgb(255, 255, 255);
+  height: 95vh;
+  padding-top: 80px;
+}
+
+/* ヘッダー・フッター */
+header{
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 8vh;
+  display: flex;
+  font-family: 'Impact', sans-serif;
+}
+
+.header_bar{
+  background-color: #333333;
+  position: relative;
+}
+
+.header_nav{
+  width: 150px;
+  position: absolute;
+  left: 0px;
+}
+
+.menu_icon{
+  height: 8vh;
+}
+
+.menu_image{
+  height: 7.9vh;
+  object-fit: cover;
+}
+.navbar_lists{
+  width: 150px;
+  height: 180px;
+  background-color: #ffffff;
+  border-radius: 10px ;
+  border: 2px solid gray;
+}
+
+.navbar_list{
+  padding: 7px 0px 5px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 15px ;
+}
+
+.navbar_list a{
+  text-decoration: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.heading{
+  margin: auto;
+}
+
+.header_logo{
+  font-size: 30px;
+  letter-spacing: 0.2em;
+}
+
+.header_logo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer{
+  height: 5vh;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ヘッダー・フッター */
