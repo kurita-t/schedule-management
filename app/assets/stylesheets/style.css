@@ -6,7 +6,7 @@
 
 .main_plan{
   background-color: rgb(255, 255, 255);
-  height: 95vh;
+  height: 100vh;
   padding-top: 80px;
 }
 
@@ -48,6 +48,7 @@ header{
   background-color: #ffffff;
   border-radius: 10px ;
   border: 2px solid gray;
+  list-style: none;
 }
 
 .navbar_list{
