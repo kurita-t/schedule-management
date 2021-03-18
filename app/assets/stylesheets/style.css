@@ -43,16 +43,16 @@ header{
   object-fit: cover;
 }
 .navbar_lists{
-  width: 150px;
+  width: 165px;
   height: 180px;
   background-color: #ffffff;
   border-radius: 10px ;
   border: 2px solid gray;
-  list-style: none;
+  list-style: square;
 }
 
 .navbar_list{
-  padding: 7px 0px 5px -15px;
+  margin: 10px 0px 5px 0px;
   font-size: 20px;
   text-decoration: none;
 }
