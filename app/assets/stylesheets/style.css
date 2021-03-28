@@ -1,5 +1,7 @@
+body{
+  padding-top: 80px;
+}
 .wrapper {
-  padding: 0px 20px;
   background-color: #4d4d4d;
   border-bottom:1px solid black;
 }
@@ -7,7 +9,7 @@
 .main_plan{
   background-color: rgb(255, 255, 255);
   height: 100vh;
-  padding-top: 80px;
+
 }
 
 /* ヘッダー・フッター */
@@ -44,7 +46,7 @@ header{
 }
 .navbar_lists{
   width: 165px;
-  height: 180px;
+  height: 150px;
   background-color: #ffffff;
   border-radius: 10px ;
   border: 2px solid gray;
