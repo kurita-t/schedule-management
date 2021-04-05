@@ -31,6 +31,36 @@
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 
+  <div class="field">
+    <%= f.label :nickname %><br />
+    <%= f.text_field :nickname, autocomplete: "nickname" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :family_name %><br />
+    <%= f.text_field :family_name, autocomplete: "family_name" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name, autocomplete: "first_name" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :family_name_kana %><br />
+    <%= f.text_field :family_name_kana, autocomplete: "family_name" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :first_name_kana %><br />
+    <%= f.text_field :first_name_kana, autocomplete: "first_name_kana" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :birth_day %><br />
+    <%= f.date_field :birth_day, autocomplete: "birth_day" %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Update" %>
   </div>
