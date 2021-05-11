@@ -58,3 +58,4 @@ gem "simple_calendar", "~> 2.0"
 gem 'rename'
 gem 'devise'
 gem 'devise-i18n'
+gem 'rails-i18n'
