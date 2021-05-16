@@ -12,7 +12,7 @@ body{
 
 }
 
-/* ヘッダー・フッター */
+/* ヘッダー・フッター始 */
 header{
   background-color: #333333;
   position: fixed;
@@ -88,4 +88,21 @@ footer{
   text-align: center;
 }
 
-/* ヘッダー・フッター */
+/* ヘッダー・フッター終 */
+
+/* 予定入力ページ始 */
+.schedule_addition{
+  height: 100hv;
+  padding-right: 40vw;
+}
+.new_plans{
+  padding: 20px 20px 40px 20px;
+}
+.new_plan{
+  padding: 15px 0px 15px 15px;
+  border: 1px solid #333333;
+  align-items: center;
+}
+.site_name{
+}
+/* 予定入力ページ終 */
