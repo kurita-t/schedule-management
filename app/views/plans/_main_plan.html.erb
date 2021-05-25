@@ -1,6 +1,6 @@
 <%= link_to '予定追加', new_plan_path %>
 <%= month_calendar plans: @plans do |date, plans| %>
-  <%= date %>
+  <%= date.day %>
 
   <% plans.each do |plan| %>
     <div>
