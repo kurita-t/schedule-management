@@ -4,7 +4,7 @@ class CreatePlans < ActiveRecord::Migration[6.0]
       t.string :site_name
       t.string :place
       t.integer :period
-      t.datetime :meeting_time
+      t.datetime :start_time
       t.string :number_of_people
       t.text :belongings
       t.integer :phone_number

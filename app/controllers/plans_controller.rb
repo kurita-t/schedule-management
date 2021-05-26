@@ -7,6 +7,10 @@ class PlansController < ApplicationController
     @plan = Plan.new
   end
 
+  def show
+    @plan = Plan.find(params[:id])
+  end
+
   def create
     @plan = Plan.create(plan_params)
     if @plan.save
@@ -20,7 +24,7 @@ class PlansController < ApplicationController
   private
 
   def plan_params
-    params.require(:plan).permit(:site_name, :place, :period, :meeting_time, :number_of_people, :belongings, :phone_number, :car, :prefecture_id).merge(user_id: current_user.id)
+    params.require(:plan).permit(:site_name, :place, :period, :start_time, :number_of_people, :belongings, :phone_number, :car, :prefecture_id).merge(user_id: current_user.id)
   end
 
 end

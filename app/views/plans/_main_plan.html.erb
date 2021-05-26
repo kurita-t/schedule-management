@@ -1,10 +1,11 @@
 <%= link_to '予定追加', new_plan_path %>
-<%= month_calendar plans: @plans do |date, plans| %>
+
+<%= month_calendar events: @plans do |date, plans| %>
   <%= date.day %>
 
   <% plans.each do |plan| %>
     <div>
-      <%= plan.title %>
+      <%= link_to plan.site_name, plan %>
     </div>
   <% end %>
 <% end %>
