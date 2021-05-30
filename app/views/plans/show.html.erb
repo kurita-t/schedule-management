@@ -75,6 +75,7 @@
     </div>
   </div>
   <div class="link_show_plans">
-    <%= link_to '内容を変更する', edit_plan_path %>
+    <%= link_to '内容を変更する', edit_plan_path, class:'plan-edit' %>|
+    <%= link_to '内容を削除する', plan_path(@plan.id), method: :delete, class:'plan-destroy' %>
   </div>
 </div>

@@ -33,6 +33,16 @@ class PlansController < ApplicationController
       render 'edit'
     end
   end
+
+  def destroy
+    @plan = Plan.find(params[:id])
+    if current_user.id == @plan.user_id
+      @plan.destroy
+      redirect_to root_path
+    else
+      render :show
+    end
+  end
   private
 
   def plan_params

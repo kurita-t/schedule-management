@@ -174,4 +174,10 @@ strong{
   border: 1px solid #333333;
   font-size: 20px;
 }
+.plan-edit{
+  padding-right: 10px;
+}
+.plan-destroy{
+  padding-left: 5px;
+}
 /* 予定変更ページ終 */
