@@ -148,3 +148,23 @@ strong{
   font-size: 20px;
 }
 /* 予定詳細ページ終 */
+
+/* 予定変更ページ始 */
+.schedule_change{
+  padding-bottom: 30px;
+}
+.schedule_change h1{
+  font-size: 23px;
+  padding-left: 10px;
+}
+.edit_plans{
+  height: 620px;
+  width: 1000px;
+  padding: 20px 0px 20px 20px;
+}
+.edit_plan{
+  padding: 15px 0px 15px 15px;
+  border: 1px solid #333333;
+  font-size: 20px;
+}
+/* 予定変更ページ終 */

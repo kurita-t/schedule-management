@@ -1,0 +1,58 @@
+<div class="schedule_change">
+
+  <h1>予定変更</h1>
+
+  <%= form_with(model: @plan, local: true) do |form| %>
+
+    <div class="edit_plans">
+
+      <div class="edit_plan">
+          <%= form.label :現場名 %>
+          <%= form.text_field :site_name %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :場所 %>
+          <%= form.text_field :place %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :期間 %>
+          <%= form.text_field :period %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :着工日時 %>
+          <%= form.datetime_select :start_time %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :人数 %>
+          <%= form.text_field :number_of_people %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :持ち物 %>
+          <%= form.text_field :belongings %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :連絡先電話番号 %>
+          <%= form.text_field :phone_number %>
+      </div>
+
+      <div class="edit_plan">
+          <%= form.label :使用している車両 %>
+          <%= form.text_field :car %>
+      </div>
+
+      <div class="edit_plan">
+        <div class="submit">
+          <%= form.submit %>
+        </div>
+      </div>
+
+    </div>
+
+  <% end %>
+</div>
