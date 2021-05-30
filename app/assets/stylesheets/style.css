@@ -105,11 +105,36 @@ footer{
   padding: 20px 0px 20px 20px;
 }
 .new_plan{
-  padding: 15px 0px 15px 15px;
   border: 1px solid #333333;
   font-size: 20px;
+  display: flex;
+}
+.new_plan_submit{
+  height: 60px;
+  border: 1px solid #333333;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.submit{
+  display: table-cell;
+  vertical-align: middle;
+}
+.new-label{
+  width: 200px;
+  padding: 15px;
+  text-align: center;
 }
 
+.new-text-fields{
+  width:600px;
+  padding: 14px 15px 0px 15px;
+}
+.new-text-field{
+  height: 40px;
+  width:600px;
+  margin: 10px 15px;
+}
 /* 予定入力ページ終 */
 
 /* 予定詳細ページ始 */
