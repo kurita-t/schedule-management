@@ -7,47 +7,65 @@
     <div class="edit_plans">
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :現場名 %>
-          <%= form.text_field :site_name %>
+        </div>
+          <%= form.text_field :site_name, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :場所 %>
-          <%= form.text_field :place %>
+        </div>
+          <%= form.text_field :place, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :期間 %>
-          <%= form.text_field :period %>
+        </div>
+          <%= form.text_field :period, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :着工日時 %>
+        </div>
+        <div class="new-text-fields">
           <%= form.datetime_select :start_time %>
+        </div>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :人数 %>
-          <%= form.text_field :number_of_people %>
+        </div>
+          <%= form.text_field :number_of_people, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :持ち物 %>
-          <%= form.text_field :belongings %>
+        </div>
+          <%= form.text_field :belongings, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :連絡先電話番号 %>
-          <%= form.text_field :phone_number %>
+        </div>
+          <%= form.text_field :phone_number, class:'edit-text-field' %>
       </div>
 
       <div class="edit_plan">
+        <div class="edit-label">
           <%= form.label :使用している車両 %>
-          <%= form.text_field :car %>
+        </div>
+          <%= form.text_field :car, class:'edit-text-field' %>
       </div>
 
-      <div class="edit_plan">
-        <div class="submit">
+      <div class="edit_plan_submit">
+        <div class="edit_submit">
           <%= form.submit %>
         </div>
       </div>
