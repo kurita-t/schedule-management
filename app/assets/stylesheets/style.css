@@ -9,7 +9,13 @@ body{
 .main_plan{
   background-color: rgb(255, 255, 255);
   height: 100vh;
+}
+.btn-new-plans{
+  margin-left: 20px;
 
+}
+.btn-new-plan{
+  font-size: 20px;
 }
 
 /* ヘッダー・フッター始 */

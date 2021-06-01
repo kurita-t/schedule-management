@@ -1,4 +1,8 @@
-<%= link_to '予定追加', new_plan_path %>
+<div class="btn-new-plans">
+<%=link_to("/plans/new") do %>
+  <button class="btn btn-new-plan" >予定を追加する</button>
+<%end%>
+</div>
 
 <%= month_calendar events: @plans do |date, plans| %>
   <%= date.day %>
