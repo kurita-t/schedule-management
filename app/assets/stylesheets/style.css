@@ -3,16 +3,21 @@ body{
 }
 .wrapper {
   background-color: #4d4d4d;
-  border-bottom:1px solid black;
 }
 
 .main_plan{
   background-color: rgb(255, 255, 255);
   height: 100vh;
+}
+.btn-new-plans{
+  margin-left: 20px;
 
 }
+.btn-new-plan{
+  font-size: 20px;
+}
 
-/* ヘッダー・フッター */
+/* ヘッダー・フッター始 */
 header{
   background-color: #333333;
   position: fixed;
@@ -88,4 +93,157 @@ footer{
   text-align: center;
 }
 
-/* ヘッダー・フッター */
+/* ヘッダー・フッター終 */
+
+/* 予定入力ページ始 */
+.schedule_addition{
+  padding-bottom: 30px;
+  height: 86vh;
+}
+.schedule_addition h1{
+  font-size: 23px;
+  padding-left: 10px;
+}
+.new_plans{
+  height: 620px;
+  width: 1000px;
+  padding: 20px 0px 20px 20px;
+}
+.new_plan{
+  border: 1px solid #333333;
+  font-size: 20px;
+  display: flex;
+}
+.new_plan_submit{
+  height: 60px;
+  border: 1px solid #333333;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.new_submit{
+  display: table-cell;
+  vertical-align: middle;
+}
+.new-label{
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+}
+
+.new-text-fields{
+  width:600px;
+  padding: 14px 15px 0px 15px;
+}
+.new-text-field{
+  height: 40px;
+  width:600px;
+  margin: 10px 15px;
+}
+/* 予定入力ページ終 */
+
+/* 予定変更ページ始 */
+.schedule_change{
+  padding-bottom: 30px;
+  height: 86vh;
+}
+.schedule_change h1{
+  font-size: 23px;
+  padding-left: 10px;
+}
+.edit_plans{
+  height: 620px;
+  width: 1000px;
+  padding: 20px 0px 20px 20px;
+}
+.edit_plan{
+  border: 1px solid #333333;
+  font-size: 20px;
+  display: flex;
+}
+.edit-label{
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+}
+.edit-text-fields{
+  width:600px;
+  padding: 14px 15px 0px 15px;
+}
+.edit-text-field{
+  height: 40px;
+  width:600px;
+  margin: 10px 15px;
+}
+.edit_plan_submit{
+  height: 60px;
+  border: 1px solid #333333;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.new_plan_submit{
+  height: 60px;
+  border: 1px solid #333333;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.edit_submit{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* 予定変更ページ終 */
+
+/* 予定詳細ページ始 */
+.schedule_details{
+  padding-bottom: 30px;
+  height: 86vh;
+}
+.show_plans{
+  height: 515px;
+  width: 1200px;
+  padding: 20px 20px 0px 20px;
+}
+.show_plan{
+
+  border: 0.5px solid black;
+  font-size: 20px;
+  display: flex
+}
+.show_plan_title{
+  padding: 15px 15px 15px 15px;
+  border-right: 0.5px solid black;
+  width: 200px;
+  text-align: center;
+}
+.show_plan_name{
+  padding: 15px 15px 15px 15px;
+}
+
+strong{
+  padding-right: 30px;
+}
+.schedule_details h1{
+  font-size: 23px;
+  padding-left: 10px;
+}
+.link_show_plans{
+  padding: 11.5px 0px 11.5px 0px;
+  margin: 0px 20px 0px 20px;
+  border: 1.5px solid black;
+  width: 1160px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-edit-plan{
+  font-size: 20px;
+  
+}
+.btn-destroy-plan{
+  font-size: 20px;
+}
+/* 予定詳細ページ終 */
+

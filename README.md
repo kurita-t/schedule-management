@@ -25,7 +25,7 @@
 | site_name        | string     |                   |
 | place            | string     |                   |
 | period           | integer    |                   |
-| meeting_time     | integer    |                   |
+| meeting_time     | datetime   |                   |
 | number_of_people | string     |                   |
 | belongings       | text       |                   |
 | phone_number     | integer    |                   |
