@@ -231,18 +231,20 @@ strong{
   padding-left: 10px;
 }
 .link_show_plans{
-  padding: 15px 0px 15px 0px;
+  padding: 11.5px 0px 11.5px 0px;
   margin: 0px 20px 0px 20px;
   border: 1.5px solid black;
   width: 1160px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-edit-plan{
   font-size: 20px;
+  
 }
-.plan-edit{
-  padding-right: 10px;
-}
-.plan-destroy{
-  padding-left: 5px;
+.btn-destroy-plan{
+  font-size: 20px;
 }
 /* 予定詳細ページ終 */
 

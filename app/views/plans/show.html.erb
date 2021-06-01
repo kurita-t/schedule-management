@@ -75,7 +75,18 @@
     </div>
   </div>
   <div class="link_show_plans">
-    <%= link_to '内容を変更する', edit_plan_path, class:'plan-edit' %>|
-    <%= link_to '内容を削除する', plan_path(@plan.id), method: :delete, class:'plan-destroy' %>
+    <div>
+    <%# justify-content: space-around;の調整の為です %>
+    </div>
+    <%= link_to(edit_plan_path) do %>
+      <button class="btn btn-edit-plan" >内容を変更する</button>
+    <%end%>
+    |
+    <%= link_to(plan_path(@plan.id), method: :delete) do %>
+      <button class="btn btn-destroy-plan" >内容を削除する</button>
+    <%end%>
+    <div>
+    <%# justify-content: space-around;の調整の為です %>
+    </div>
   </div>
 </div>
