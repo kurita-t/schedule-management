@@ -1,13 +1,9 @@
 body{
-  padding-top: 80px;
+
 }
 .wrapper {
-  background-color: #4d4d4d;
-}
-
-.main_plan{
-  background-color: rgb(255, 255, 255);
-  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .btn-new-plans{
   margin-left: 20px;

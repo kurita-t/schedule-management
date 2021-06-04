@@ -1,5 +1,17 @@
 <div class="wrapper">
-  <div class="main_plan">
-    <%= render "main_plan" %>
+  <div class="btn-new-plans">
+    <%=link_to("/plans/new") do %>
+      <button class="btn btn-new-plan" >予定を追加する</button>
+    <%end%>
   </div>
+
+  <%= month_calendar events: @plans do |date, plans| %>
+    <%= date.day %>
+
+    <% plans.each do |plan| %>
+      <div>
+        <%= link_to plan.site_name, plan %>
+      </div>
+    <% end %>
+  <% end %>
 </div>
