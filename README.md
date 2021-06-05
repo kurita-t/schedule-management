@@ -41,8 +41,7 @@
 
 | Column     | Type       | Options           |
 | ---------- | ---------- | ----------------- |
-| note       | text       | null: false       |
-| time       | string     | null: false       |
+| content    | text       | null: false       |
 | user       | references | foreign_key: true |
 
 ### Association
