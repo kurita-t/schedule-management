@@ -4,12 +4,17 @@ body{
 .wrapper {
   padding-top: 100px;
   padding-bottom: 50px;
+  height: calc(100hv - 65px - 40px);
 }
 .btn-new-plans{
   margin-left: 20px;
 
 }
 .btn-new-plan{
+  font-size: 20px;
+}
+
+.btn-index-message{
   font-size: 20px;
 }
 
@@ -21,7 +26,7 @@ header{
   left: 0;
   right: 0;
   z-index: 5;
-  height: 8vh;
+  height: 65px;
   display: flex;
   font-family: 'Impact', sans-serif;
 }
@@ -38,11 +43,11 @@ header{
 }
 
 .menu_icon{
-  height: 8vh;
+
 }
 
 .menu_image{
-  height: 7.9vh;
+  height: 64px;
   object-fit: cover;
 }
 .navbar_lists{
@@ -83,7 +88,7 @@ header{
 }
 
 footer{
-  height: 5vh;
+  height: 40px;
   background-color: #333333;
   color: #ffffff;
   text-align: center;
@@ -242,4 +247,3 @@ strong{
   font-size: 20px;
 }
 /* 予定詳細ページ終 */
-
