@@ -1,92 +1,94 @@
-<div class="schedule_details">
-  <h1>予定詳細</h1>
+<div class="wrapper">
+  <div class="schedule_details">
+    <h1>予定詳細</h1>
 
-  <div class="show_plans">
-    <div class="show_plan">
-      <div class="show_plan_title">
-        現場名
+    <div class="show_plans">
+      <div class="show_plan">
+        <div class="show_plan_title">
+          現場名
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.site_name %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.site_name %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        場所
+      <div class="show_plan">
+        <div class="show_plan_title">
+          場所
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.place %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.place %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        期間
+      <div class="show_plan">
+        <div class="show_plan_title">
+          期間
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.period %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.period %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        着工日時
+      <div class="show_plan">
+        <div class="show_plan_title">
+          着工日時
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.start_time.strftime("%Y-%m-%d %H:%M") %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.start_time.strftime("%Y-%m-%d %H:%M") %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        人数
+      <div class="show_plan">
+        <div class="show_plan_title">
+          人数
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.number_of_people %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.number_of_people %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        持ち物
+      <div class="show_plan">
+        <div class="show_plan_title">
+          持ち物
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.belongings %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.belongings %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        連絡先電話番号
+      <div class="show_plan">
+        <div class="show_plan_title">
+          連絡先電話番号
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.phone_number %>
+        </div>
       </div>
-      <div class="show_plan_name">
-        <%= @plan.phone_number %>
-      </div>
-    </div>
 
-    <div class="show_plan">
-      <div class="show_plan_title">
-        使用している車両
-      </div>
-      <div class="show_plan_name">
-        <%= @plan.car %>
+      <div class="show_plan">
+        <div class="show_plan_title">
+          使用している車両
+        </div>
+        <div class="show_plan_name">
+          <%= @plan.car %>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="link_show_plans">
-    <div>
-    <%# justify-content: space-around;の調整の為です %>
-    </div>
-    <%= link_to(edit_plan_path) do %>
-      <button class="btn btn-edit-plan" >内容を変更する</button>
-    <%end%>
-    |
-    <%= link_to(plan_path(@plan.id), method: :delete) do %>
-      <button class="btn btn-destroy-plan" >内容を削除する</button>
-    <%end%>
-    <div>
-    <%# justify-content: space-around;の調整の為です %>
+    <div class="link_show_plans">
+      <div>
+      <%# justify-content: space-around;の調整の為です %>
+      </div>
+      <%= link_to(edit_plan_path) do %>
+        <button class="btn btn-edit-plan" >内容を変更する</button>
+      <%end%>
+      |
+      <%= link_to(plan_path(@plan.id), method: :delete) do %>
+        <button class="btn btn-destroy-plan" >内容を削除する</button>
+      <%end%>
+      <div>
+      <%# justify-content: space-around;の調整の為です %>
+      </div>
     </div>
   </div>
 </div>
