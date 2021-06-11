@@ -3,19 +3,28 @@ body{
 }
 .wrapper {
   padding-top: 100px;
-  padding-bottom: 50px;
-  height: calc(100hv - 65px - 40px);
+}
+footer{
+  height: 40px;
+  width: 100vw;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 .btn-new-plans{
-  margin-left: 20px;
-
+  padding-top: 50px;
+  text-align: center;
 }
 .btn-new-plan{
   font-size: 20px;
+  margin-right: 60px;
 }
 
 .btn-index-message{
   font-size: 20px;
+  margin-left: -10px;
 }
 
 /* ヘッダー・フッター始 */
@@ -73,6 +82,10 @@ header{
   display: none;
 }
 
+.user-nickname{
+  font-size: 20px;
+}
+
 .heading{
   margin: auto;
 }
@@ -87,12 +100,7 @@ header{
   text-decoration: none;
 }
 
-footer{
-  height: 40px;
-  background-color: #333333;
-  color: #ffffff;
-  text-align: center;
-}
+
 
 /* ヘッダー・フッター終 */
 
@@ -125,6 +133,7 @@ footer{
 .new_submit{
   display: table-cell;
   vertical-align: middle;
+  font-size: 20px;
 }
 .new-label{
   width: 200px;
@@ -193,6 +202,7 @@ footer{
 .edit_submit{
   display: table-cell;
   vertical-align: middle;
+  font-size: 20px;
 }
 
 /* 予定変更ページ終 */
@@ -241,9 +251,11 @@ strong{
 }
 .btn-edit-plan{
   font-size: 20px;
-  
 }
 .btn-destroy-plan{
+  font-size: 20px;
+}
+.btn-root-plan{
   font-size: 20px;
 }
 /* 予定詳細ページ終 */

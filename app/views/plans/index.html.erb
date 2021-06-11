@@ -1,10 +1,4 @@
 <div class="wrapper">
-  <div class="btn-new-plans">
-    <%=link_to("/plans/new") do %>
-      <button class="btn btn-new-plan" >予定を追加する</button>
-    <%end%>
-  </div>
-
   <%= month_calendar events: @plans do |date, plans| %>
     <%= date.day %>
 
@@ -14,7 +8,13 @@
       </div>
     <% end %>
   <% end %>
-  <%= link_to(messages_path) do %>
+
+  <div class="btn-new-plans">
+    <%=link_to("/plans/new") do %>
+      <button class="btn btn-new-plan" >予定を追加する</button>
+    <%end%>
+    <%= link_to(messages_path) do %>
       <button class="btn btn-index-message" >チャットする</button>
     <%end%>
+  </div>
 </div>

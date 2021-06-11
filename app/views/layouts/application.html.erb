@@ -19,6 +19,7 @@
             <%= image_tag "/assets/sozai_cman_jp_20210221152543.png", class: "menu_image" %>
             <ul class="navbar_lists  hidden" id="pull-down">
               <li class="navbar_list"><%= link_to "ホーム", root_path %> </li>
+              <li class="navbar_list"><%= link_to "チャットルーム", messages_path %></li>
               <% if user_signed_in? %>
                 <li><%= link_to current_user.nickname, edit_user_registration_path(current_user), class: "user-nickname" %></li>
                 <li class="navbar_list"><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
