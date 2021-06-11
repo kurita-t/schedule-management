@@ -4,15 +4,6 @@ body{
 .wrapper {
   padding-top: 100px;
 }
-footer{
-  height: 40px;
-  width: 100vw;
-  background-color: #333333;
-  color: #ffffff;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-}
 .btn-new-plans{
   padding-top: 50px;
   text-align: center;
@@ -48,11 +39,10 @@ header{
 .header_nav{
   width: 150px;
   position: absolute;
-  left: 0px;
+  left: 1px;
 }
 
 .menu_icon{
-
 }
 
 .menu_image{
@@ -61,7 +51,7 @@ header{
 }
 .navbar_lists{
   width: 200px;
-  height: 185px;
+  height: 195px;
   background-color: #ffffff;
   border-radius: 10px ;
   border: 2px solid gray;
@@ -69,9 +59,8 @@ header{
 }
 
 .navbar_list{
-  margin: 10px 0px 5px 25px;
+  margin: 10px 0px 5px 8px;
   font-size: 20px;
-
 }
 
 .navbar_list a{
@@ -80,10 +69,6 @@ header{
 
 .hidden{
   display: none;
-}
-
-.user-nickname{
-  
 }
 
 .heading{
@@ -100,4 +85,13 @@ header{
   text-decoration: none;
 }
 
+footer{
+  height: 40px;
+  width: 100vw;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
 /* ヘッダー・フッター終 */
