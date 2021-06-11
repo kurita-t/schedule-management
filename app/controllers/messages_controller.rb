@@ -1,8 +1,6 @@
 class MessagesController < ApplicationController
   def index
-    @message = Message.new
-    @messages = Message.all
-    # @message = Message.find(params[:message_id])
+    @messages = Message.all.order('created_at DESC')
   end
 
   def create
